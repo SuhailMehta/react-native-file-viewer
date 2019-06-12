@@ -4,14 +4,13 @@ package com.vinzscam.reactnativefileviewer;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.support.v4.content.FileProvider;
 import android.webkit.MimeTypeMap;
 
+import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
-import com.facebook.react.bridge.Promise;
 
 import java.io.File;
 
